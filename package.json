@@ -1,0 +1,21 @@
+{
+  "name": "jest-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "some_file.js",
+  "scripts": {
+    "test": "jest",
+    "greeting": "node hello.js && node hi.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.8",
+    "@babel/preset-typescript": "^7.16.7",
+    "babel-jest": "^27.4.6",
+    "jest": "^27.4.7"
+  },
+  "dependencies": {}
+}
