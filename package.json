@@ -17,5 +17,7 @@
     "babel-jest": "^27.4.6",
     "jest": "^27.4.7"
   },
-  "dependencies": {}
+  "dependencies": {
+    "axios": "^0.25.0"
+  }
 }
