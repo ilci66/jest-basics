@@ -81,7 +81,7 @@ test('async - await fetch fails with an error', async () => {
 });
 
 test('async - await resolve', async () => {
-  await expect(fetchPostToResolve()).resolves.toBe('resolved');
+  await expect(fetchPostToResolve(1)).resolves.toBe('resolved');
 });
 
 // test('the fetch fails with an error', async () => {
