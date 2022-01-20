@@ -87,3 +87,6 @@ test('async - await resolve', async () => {
 // test('the fetch fails with an error', async () => {
 //   await expect(fetchPostToFail(1)).rejects.toMatch('error');
 // });
+
+
+// I could apparently use the test.only command (instead of test) to test the codes that were causing an error
